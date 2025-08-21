@@ -3,6 +3,42 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.ItemTaxForm {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.ItemTaxForm input,
+.ItemTaxForm select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input-unit {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+
 input {
     margin-top: 10px;
     padding: 5px;

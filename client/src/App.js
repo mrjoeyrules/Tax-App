@@ -1,6 +1,5 @@
 import './App.css';
-import VATCalculator from './Components/VATCalculator';
-
+import ItemTaxForm from './Components/ItemTaxForm';
 
 function App() {
   return (
@@ -10,9 +9,8 @@ function App() {
         <p>Understand the true cost of your purchases</p>
       </header>
       <main>
-        <VATCalculator />
-        {/* ADD MORE COMPONENTS HERE AS NEEDED */}
-        </main>
+        <ItemTaxForm />  
+      </main>
     </div>
   );
 }
